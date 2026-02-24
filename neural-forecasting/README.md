@@ -1,6 +1,6 @@
 # Neural Forecasting — NSF HDR Scientific Modeling out of distribution 2026
 
-This repository contains training code and submission files for the [2025 HDR Scientific Mood (Modeling out of distribution) Challenge: Neural Forecasting](https://www.codabench.org/competitions/9806/) from team 20iterations.
+This repository contains training code and submission files for the [HDR Scientific Mood (Modeling out of distribution) Challenge: Neural Forecasting](https://www.codabench.org/competitions/9806/) from team 20iterations.
 
 ## Repository Structure
 
