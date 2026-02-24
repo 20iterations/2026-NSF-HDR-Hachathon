@@ -1,0 +1,26 @@
+[project]
+name = "amag-neural-forecasting"
+version = "0.1.0"
+description = "AMAG: Additive, Multiplicative and Adaptive GNN for Neural Activity Forecasting — NSF HDR Hackathon 2025 Submission"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "tqdm",
+    "torch",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["training/amag"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu124" }
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true

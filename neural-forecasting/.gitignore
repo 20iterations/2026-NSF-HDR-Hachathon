@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Data (too large for git)
+dataset/
+checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Paper PDF
+*.pdf
+
+# Challenge bundles
+HDRChallenge_y2/
+HDR-SMood-Challenge-sample/
+NSF_HDR_*.zip
+submission.zip
+_extract_tmp/
+
+# uv
+uv.lock
+
+# Claude
+.claude/
+CLAUDE.md
